@@ -1,0 +1,138 @@
+a{
+    color: black;
+}
+header h1{
+    font-family: "Lexend Mega", sans-serif;
+    font-style: normal;
+    font-size: 2.8rem;
+    font-weight: 500;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-family: "Lexend Mega", sans-serif;
+    font-size: 1.375rem;
+    font-style: normal;
+}
+.main{
+    padding-top: 35px;
+}
+.main1{
+    background-image: url("https://t4.ftcdn.net/jpg/01/99/22/71/360_F_199227139_FCFEMYvJMfzebvcS7S0s3BGerCMpfIVl.jpg");
+    display: flex;
+    height: 20rem;
+    padding-top: 35px;
+}
+.main1 .content{
+    margin: auto;
+    font-family: "Lexend Mega", sans-serif;
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: auto;
+    
+}
+h2{
+    padding: 10px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+h4{
+    margin: 0;
+    padding: 10px;
+
+}
+.main1 .content h2,h4{
+    display: flex;
+    justify-content: center;
+}
+.main1 .content h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.mobility{
+    padding-top: 35px;
+}
+.portfolio{
+    font-family: "Lexend Mega", sans-serif;
+    text-align: center;
+    font-size: 1.375rem;
+}
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company img{ 
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+.company span{
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+.team h2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Lexend Mega",sans-serif;
+}
+.employees{
+    background-image: url('./resources/images/blurred-road.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-top: 5px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.employee{
+    padding: 10px;
+    flex-basis: 280px;
+    color: white;
+    font-family: "Lexend Mega", sans-serif;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.employee img{
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    text-align: center;
+    font-family: "Lexend Mega",sans-serif;
+    padding-top: 10px;
+    margin: 0;
+}
+footer h5{
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
+.copy{
+    text-align: center;
+    font-family: "Lexend Mega",sans-serif;
+    padding-top: 10px;
+    margin: 0;
+    font-size: 1.2rem;
+}
